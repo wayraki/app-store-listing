@@ -1,0 +1,54 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  padding: 2.5vmin 5vmin;
+  overflow-x: hidden;
+  background-color: rgba(255, 255, 255);
+  z-index: 9;
+}
+.inputBox {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  height: 8.5vmin;
+  padding: 0 2vmin;
+  border-radius: 2vmin;
+  background-color: #efefef;
+  transition: width 0.2s;
+}
+.searchIcon {
+  flex-shrink: 0;
+  width: 5vmin;
+  height: 5vmin;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.inputBox input {
+  flex-grow: 1;
+  margin-left: 1vmin;
+  padding: 1vmin 0;
+  line-height: 3.8vmin;
+  width: 100%;
+  box-sizing: content-box;
+  border: 0;
+  outline: none;
+  font-size: 3.8vmin;
+  background-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.crossIcon {
+  flex-shrink: 0;
+  width: 5vmin;
+  height: 5vmin;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.cancelBtn {
+  flex-shrink: 0;
+  width: 18vmin;
+  text-align: center;
+  color: #0076de;
+  transition: opacity 0.8s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
